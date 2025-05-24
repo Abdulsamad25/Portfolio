@@ -1,12 +1,65 @@
-# React + Vite
+# Abdulsamad's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio website built with React and Vite, showcasing my projects, skills, and contact information.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Animated sections using [AOS](https://michalsnik.github.io/aos/)
+- Contact form with [EmailJS](https://www.emailjs.com/) integration
+- Responsive design with Tailwind CSS
+- Project and skill highlights with dynamic counters
+- Social links and downloadable resume
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [EmailJS](https://www.emailjs.com/)
+- [AOS](https://michalsnik.github.io/aos/)
+- [Lucide React Icons](https://lucide.dev/)
+
+## 📦 Getting Started
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/<your-username>/<your-repo>.git
+   cd <your-repo>
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Set up environment variables:**
+
+   Create a `.env` file in the root directory and add your EmailJS credentials:
+   ```
+   VITE_EMAILJS_SERVICE_ID=your_service_id
+   VITE_EMAILJS_TEMPLATE_ID=your_template_id
+   VITE_EMAILJS_PUBLIC_KEY=your_public_key
+   ```
+
+4. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+5. **Build for production:**
+   ```bash
+   npm run build
+   ```
+
+## 🌐 Deployment
+
+This project is ready to deploy on [Netlify](https://www.netlify.com/), [Vercel](https://vercel.com/), or any static hosting service.  
+Netlify will automatically build your project from your GitHub repo.
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+**Made with by Yahaya Abdulsamad**
