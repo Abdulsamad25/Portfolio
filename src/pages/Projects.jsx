@@ -3,6 +3,7 @@ import { ExternalLink, Github } from "lucide-react";
 import Cynosure from "../assets/Cynosure.png";
 import Dropnest from "../assets/Dropnest.png";
 import Cryptopulse from "../assets/Cryptopulse.png";
+import Forever from "../assets/Forever.png";
 
 const Projects = () => {
   const projects = [
@@ -26,22 +27,42 @@ const Projects = () => {
       liveUrl: "https://cyno-sure.netlify.app/",
       githubUrl: "https://github.com/Abdulsamad25/arch-landing-page",
     },
+    // {
+    //   id: 3,
+    //   title: "Crypto Pulse",
+    //   description:
+    //     "A cryptocurrency dashboard that provides real-time data on various cryptocurrencies, including price charts and market trends.",
+    //   image: Cryptopulse,
+    //   tags: [
+    //     "React",
+    //     "Tailwind CSS",
+    //     "Firebase",
+    //     "Chart.js",
+    //     "Coingecko API",
+    //     "Netlify",
+    //   ],
+    //   liveUrl: "https://crypto-pulsee.netlify.app/",
+    //   githubUrl: "https://github.com/Abdulsamad25/crypto-pulse/",
+    // },
     {
       id: 3,
-      title: "Crypto Pulse",
+      title: "Forever E-commerce",
       description:
-        "A cryptocurrency dashboard that provides real-time data on various cryptocurrencies, including price charts and market trends.",
-      image: Cryptopulse,
+        "A full-stack e-commerce application with payment integration using Stripe and Paystack. It includes features like product browsing, cart management, user authentication, and order tracking.",
+      image: Forever,
       tags: [
         "React",
         "Tailwind CSS",
-        "Firebase",
-        "Chart.js",
-        "Coingecko API",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Stripe",
+        "Paystack",
+        "Vercel",
         "Netlify",
       ],
-      liveUrl: "https://crypto-pulsee.netlify.app/",
-      githubUrl: "https://github.com/Abdulsamad25/crypto-pulse/",
+      liveUrl: "https://forever-store-app.netlify.app/",
+      githubUrl: "https://github.com/Abdulsamad25/E-commerce-app",
     },
   ];
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { Github, Linkedin, Mail, ChevronDown } from "lucide-react";
-import Samad from "../assets/Abdulsamad.jpg";
+import Samad from "../assets/Samad.jpg";
 
 const Hero = ({ scrollToSection }) => {
   return (
@@ -12,14 +12,16 @@ const Hero = ({ scrollToSection }) => {
     >
       <div className="mx-auto max-w-4xl text-center">
         <div className="mb-8">
-          <div className="bg-gradient-to-r from-blue-500 to-purple-600 mx-auto mb-6 p-2 rounded-full w-32 h-32">
+          <div className="mx-auto mb-6 p-2 rounded-full w-32 h-32">
             <div className="flex justify-center items-center bg-gray-900 rounded-full w-full h-full">
               <span className="font-bold text-4xl">
-                <img
-                  src={Samad}
-                  alt="Abdulsamad"
-                  className="p-2 rounded-full w-full h-full object-cover"
-                />
+                <div className="rounded-full w-40 h-40 overflow-hidden">
+                  <img
+                    src={Samad}
+                    alt="Abdulsamad"
+                    className="rounded-full w-full h-full object-cover"
+                  />
+                </div>
               </span>
             </div>
           </div>
