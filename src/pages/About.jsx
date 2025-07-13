@@ -10,7 +10,7 @@ const About = () => {
       data-aos-duration="1000"
     >
       <div className="mx-auto max-w-6xl">
-        <h2 className="mb-2 font-bold text-2xl md:text-4xl text-center">
+        <h2 className="mb-8 font-bold text-2xl md:text-4xl text-center">
           <span className="bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500 text-transparent">
             About Me
           </span>

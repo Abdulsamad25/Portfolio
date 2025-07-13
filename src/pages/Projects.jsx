@@ -2,8 +2,9 @@ import React from "react";
 import { ExternalLink, Github } from "lucide-react";
 import Cynosure from "../assets/Cynosure.png";
 import Dropnest from "../assets/Dropnest.png";
-import Cryptopulse from "../assets/Cryptopulse.png";
+// import Cryptopulse from "../assets/Cryptopulse.png";
 import Forever from "../assets/Forever.png";
+import Staynest from "../assets/Staynest.png";
 
 const Projects = () => {
   const projects = [
@@ -64,6 +65,16 @@ const Projects = () => {
       liveUrl: "https://forever-store-app.netlify.app/",
       githubUrl: "https://github.com/Abdulsamad25/E-commerce-app",
     },
+    {
+      id: 4,
+      title: "StayNest",
+      description:
+        "A modern apartment rental platform that allows users to browse, book, and manage apartment rentals with real-time availability, Paystack integration, and flexible rental periods.",
+      image: Staynest,
+      tags: ["React", "Tailwind CSS", "JavaScript", "Paystack", "Netlify"],
+      liveUrl: "https://stayynest.netlify.app/",
+      githubUrl: "https://github.com/Abdulsamad25/apartment-rentals/",
+    }
   ];
 
   return (
@@ -140,3 +151,4 @@ const Projects = () => {
 };
 
 export default Projects;
+
