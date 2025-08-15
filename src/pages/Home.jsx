@@ -18,7 +18,7 @@ const Hero = ({ scrollToSection }) => {
                 <div className="rounded-full w-40 h-40 overflow-hidden">
                   <img
                     src={Samad}
-                    alt="Abdulsamad"
+                    alt="Abdulsamad Image"
                     className="rounded-full w-full h-full object-cover"
                   />
                 </div>
